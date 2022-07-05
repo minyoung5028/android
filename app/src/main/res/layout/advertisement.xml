@@ -6,10 +6,20 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <TextView
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/advertisement1"
+        android:layout_width="450dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:background="@drawable/tiger"
+        >
+
+    </androidx.constraintlayout.utils.widget.ImageFilterView>
+<!--    <TextView-->
         android:text="1"
-        android:layout_width="400dp"
-        android:layout_height="400dp"
+        android:layout_width="800dp"
+        android:layout_height="500dp"
         android:textSize="50dp"
         android:gravity="center"
         android:textColor="#000000"
